@@ -103,4 +103,4 @@ def update_scatter_chart(selected_site, payload_range):
     return fig
 
 if __name__ == '__main__':
-    app.run_server(debug=True)  
+    app.run(debug=True)  
